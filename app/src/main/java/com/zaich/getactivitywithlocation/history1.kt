@@ -49,6 +49,7 @@ class history1: AppCompatActivity() {
                 Toast.makeText(this, "Record deleted successfully", Toast.LENGTH_LONG).show()
             }
             dialog.dismiss()
+            setupListOfData()
         }
         //menampilkan tombol yes
         builder.setNegativeButton("No") { dialog: DialogInterface, which: Int ->
